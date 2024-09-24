@@ -26,6 +26,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 <P>Controller is used here is TicketController were we perform all task regarding the Booking Form</P>
 <h5>Models</h5>
 <p>We have Destination,Trip,Seat , BookingDetail Models to manage all Task Regarding the Databases</p>
+<h5>create the database </h5>
+<p> 1. destination table : to store the destination name </p>
+<p> 1. trips table : to store the trip data, as id, trip name as start to end point, prize as per trip  </p>
+<p> 1. seat table : to store the seat prize based on type single or double </p>
+<p> 1. bookingdetails table : to store all the info from from recorder here</p>
 <h5>Routes</h5>
 <p>Web.php File have mentions all routes for this project</p>
 
