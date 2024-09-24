@@ -20,13 +20,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/hom2', [App\Http\Controllers\HomeController::class, 'dashboard']);
-Route::get('/booking/create', [App\Http\Controllers\BookingController::class, 'create']);
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/hom2', [App\Http\Controllers\HomeController::class, 'dashboard']);
+// Route::get('/booking/create', [App\Http\Controllers\BookingController::class, 'create']);
 
-Route::get('/form',function(){
-   return view('booking');
-});
+// Route::get('/form',function(){
+//    return view('booking');
+// });
 Route::get('/get-destinations', [TicketController::class, 'getDestinations']);
 Route::get('/get-trips/{destination_id}', [TicketController::class, 'getTrips']);
 Route::get('/get-seats/{trip_id}', [TicketController::class, 'getSeats']);
