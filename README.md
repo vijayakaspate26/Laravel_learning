@@ -11,4 +11,13 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
+<h3>The Ticket Booking System</h3>
+<h5>Controller</h5>
+<P>Controller is used here is TicketController were we perform all task regarding the Booking Form</P>
+<h5>Models</h5>
+<p>We have Destination,Trip,Seat , BookingDetail Models to manage all Task Regarding the Databases</p>
+<h5>Routes</h5>
+<p>Web.php File have mentions all routes for this project</p>
+
+
 
