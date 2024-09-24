@@ -16,6 +16,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 <ul>
     <Li>Xammp Server  installed in you pc</Li>
     <li>Composer   installed in you pc</li>
+    <li>to create the project run the command : composer create-project laravel/laravel booking-system </li>
     <li> Command : php artisan serve then the link is open (http://127.0.0.1:8000/) </li>
     <li> the page of laravel is open then register if your new for this site , then login </li>
     <li>after login your are able to see the form for booking system filled the form and then it will redirect to bookinglist page</li>
