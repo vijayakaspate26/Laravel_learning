@@ -5,30 +5,24 @@
               <span class="hide-menu">Home</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="./index.html" aria-expanded="false">
+              <a class="sidebar-link" href="{{url('/home')}}" aria-expanded="false">
                 <span>
                   <iconify-icon icon="solar:home-smile-bold-duotone" class="fs-6"></iconify-icon>
                 </span>
                 <span class="hide-menu">Dashboard</span>
               </a>
             </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="{{url('/bookinglist')}}" aria-expanded="false">
+                <span>
+                  <iconify-icon icon="solar:home-smile-bold-duotone" class="fs-6"></iconify-icon>
+                </span>
+                <span class="hide-menu">Booking List</span>
+              </a>
+            </li>
            
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
-                <span>
-                  <iconify-icon icon="solar:login-3-bold-duotone" class="fs-6"></iconify-icon>
-                </span>
-                <span class="hide-menu">Login</span>
-              </a>
-            </li>
-            <li class="sidebar-item">
-              <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
-                <span>
-                  <iconify-icon icon="solar:user-plus-rounded-bold-duotone" class="fs-6"></iconify-icon>
-                </span>
-                <span class="hide-menu">Register</span>
-              </a>
-            </li>
+          
+           
             <li class="nav-small-cap">
               <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4" class="fs-6"></iconify-icon>
               <span class="hide-menu">EXTRA</span>

@@ -2,7 +2,7 @@
  @section('content')
 
 <div>
-    <a href="{{url('/form')}}" class="add-booking btn btn-success" > Add Booking </a>
+    <a href="{{url('/home')}}" class="add-booking btn btn-success" > Add Booking </a>
 </div>
 
  <h1>Booking Details</h1>
@@ -21,7 +21,8 @@
                   
                       <th scope="col" class="text-center">Seat Prize (₹)</th>
                       <th scope="col" class="text-center">Total Prize (₹)</th>
-                    </tr>
+                      <th scope="col" class="text-center">Update </th>
+                         </tr>
                   </thead>
                   <tbody class="">
                   @foreach($bookings as $booking)
@@ -32,6 +33,8 @@
                     <td class="text-center fw-medium">{{ $booking->trip_prize }}</td>
                     <td class="text-center fw-medium">{{ $booking->seat_prize }}</td>
                     <td class="text-center fw-medium">{{ $booking->total_prize }}</td>
+                    <th scope="col" class="text-center"><a href="{{ url('/edit-booking/' . $booking->id) }}" class="btn btn-warning"> Update </a></th>
+                 
                 </tr>
             @endforeach
                    

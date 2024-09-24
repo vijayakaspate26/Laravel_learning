@@ -43,8 +43,27 @@ class TripSeeder extends Seeder
         ]);
 
         Trip::create([
+            'destination_id' => $mumbai_id,
+            'trip_name' => 'mumbai to Solapur',
+            'prize' => 950.00,
+            'active' => true,
+        ]);
+
+        Trip::create([
+            'destination_id' => $mumbai_id,
+            'trip_name' => 'Mumbai to Pune',
+            'prize' => 500.00,
+            'active' => true,
+        ]);
+        Trip::create([
+            'destination_id' => $mumbai_id,
+            'trip_name' => 'Mumbai to Latur',
+            'prize' => 850.00,
+            'active' => true,
+        ]);
+        Trip::create([
             'destination_id' => $solapur_id,
-            'trip_name' => 'Pune to Solapur',
+            'trip_name' => 'Solapur to pune',
             'prize' => 650.00,
             'active' => true,
         ]);
